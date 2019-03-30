@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#d84315</item>
+        <item name="colorPrimaryDark">#8bc34a</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="NumerosBotones">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">78dp</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:textColor">@color/colorFuncBotonTxt</item>
+        <item name="android:background">@drawable/botones_numeros_rectangulares</item>
+
+    </style>
+
+    <style name="FuncionBotones">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">78dp</item>
+        <item name="android:layout_width">72dp</item>
+        <item name="android:textColor">@color/colorFuncBotonTxt</item>
+        <item name="android:background">@drawable/botones_operaciones_rectangulares</item>
+
+    </style>
+
+    <style name="NumerosBotonesLAND">
+        <item name="android:textSize">20sp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:textColor">@color/colorFuncBotonTxt</item>
+        <item name="android:background">@drawable/botones_numeros_rectangulares</item>
+
+    </style>
+
+    <style name="FuncionBotonesLAND">
+        <item name="android:textSize">20sp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:layout_width">52dp</item>
+        <item name="android:textColor">@color/colorFuncBotonTxt</item>
+        <item name="android:background">@drawable/botones_operaciones_rectangulares</item>
+
+    </style>
+
+</resources>

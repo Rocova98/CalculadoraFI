@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/calculator_3534"
+        android:title="Info"
+        android:id="@+id/Info"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:icon="@drawable/offhelper"
+        android:title="Salir"
+        android:id="@+id/Salir"
+        app:showAsAction="always"
+        />
+
+</menu>
